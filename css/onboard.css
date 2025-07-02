@@ -6,7 +6,7 @@
 }
 
 .logo {
-    margin-top: 10px;
+    padding-top: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -103,6 +103,19 @@
     margin-right: auto;
 }
 
+.get-started {
+    position: relative;
+    top: -138px;
+    color: #43FCFF;
+    left: -90px;
+    font-size: 17px;
+    z-index: 10;
+    width: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+}
+
 .text-bottom {
     color: #CE3AAF;
     text-align: center;
@@ -156,6 +169,24 @@ input::placeholder {
     gap: 10px;
 }
 
+.button-register {
+    position: relative;
+    top: -20px;
+    cursor: pointer;
+}
+
+.button-login {
+    cursor: pointer;
+}
+
+.button-register a {
+    position: relative;
+    top: -119px;
+    right: 0px;
+    color: #CE3AAF;
+    font-size: 20px;
+}
+
 .button-login a {
     position: relative;
     top: -119px;
@@ -164,23 +195,7 @@ input::placeholder {
     font-size: 20px;
 }
 
-.button-register a {
-    color: white;
-    position: relative;
-    right: 346px;
-    top: -66px;
 
-    background: linear-gradient(180deg, #FFFFFF, #FF20C9);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    line-height: 20px;
-    font-size: 17px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    z-index: 10;
-}
 
 .rectangle-19 {
     position: relative;
