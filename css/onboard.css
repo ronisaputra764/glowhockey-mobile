@@ -34,9 +34,6 @@
     margin-bottom: 10px;
 }
 
-.rectangle {
-    position: relative;
-}
 
 .rectangle-14 {
     position: relative;
@@ -94,12 +91,16 @@
 }
 
 .guest {
-    position: absolute;
-    top: -38px;
+    position: relative;
+    top: -147px;
+    right: 0;
     color: #43FCFF;
-    left: 135px;
+    left: -50px;
     font-size: 25px;
     z-index: 10;
+    width: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .text-bottom {
@@ -107,13 +108,13 @@
     text-align: center;
     font-size: 15px;
     position: relative;
-    top: -80px;
+    top: -202px;
 }
 
 .login {
     text-align: center;
     position: relative;
-    top: -120px;
+    top: -250px;
 }
 
 .login-text {
@@ -156,12 +157,11 @@ input::placeholder {
 }
 
 .button-login a {
-    position: absolute;
-    top: 225px;
-    right: 140px;
+    position: relative;
+    top: -119px;
+    right: 0px;
     color: #CE3AAF;
     font-size: 20px;
-    top: 200px;
 }
 
 .button-register a {
@@ -253,7 +253,7 @@ input::placeholder {
 
 .term {
     color: white;
-    margin-top: -30px;
+    margin-top: -110px;
     font-size: 8.5px;
 }
 
@@ -268,7 +268,7 @@ input::placeholder {
     padding-left: 30px;
     padding-right: 30px;
     position: relative;
-    top: -110px;
+    top: -240px;
 
 }
 
