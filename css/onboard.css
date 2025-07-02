@@ -6,7 +6,7 @@
 }
 
 .logo {
-    margin-top: 50px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,7 +24,7 @@
 }
 
 .main {
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .text {
@@ -113,7 +113,7 @@
 .login {
     text-align: center;
     position: relative;
-    top: -80px;
+    top: -120px;
 }
 
 .login-text {
@@ -268,7 +268,7 @@ input::placeholder {
     padding-left: 30px;
     padding-right: 30px;
     position: relative;
-    top: -40px;
+    top: -110px;
 
 }
 
