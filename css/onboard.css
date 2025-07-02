@@ -1,0 +1,48 @@
+.background-login-register {
+    background-image: url(../assets/image/Air\ Hockey.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.clash-hockey {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    margin-bottom: -20px;
+    border: 1px solid white;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clash {
+    margin-top: 1px;
+    color: #17FBF3;
+    text-shadow:
+        0 0 1000px #0D74C9,
+        0 0 80px #0D74C9;
+}
+
+.hockey {
+    margin-top: -65px;
+    color: #FF20C9;
+    text-shadow:
+        0 0 1000px #FF008C,
+        0 0 80px #FF008C;
+}
+
+.main {
+    text-align: center;
+}
+
+.text {
+    color: #FF40D1;
+    font-size: 20px;
+}
+
+.text-register {
+    margin-top: 40px;
+}
