@@ -1,48 +1,305 @@
 .background-login-register {
     background-image: url(../assets/image/Air\ Hockey.png);
     height: 100vh;
-    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.clash-hockey {
+.logo {
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    justify-items: center;
     align-items: center;
-    font-size: 10px;
-    margin-bottom: -20px;
-    border: 1px solid white;
-    width: 100px;
+}
+
+.clash {
+    width: 180px;
+}
+
+.hockey {
+    width: 200px;
+    margin-top: -50px;
+}
+
+.main {
+    margin-top: 40px;
+}
+
+.text {
+    color: #CE3AAF;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.rectangle {
+    position: relative;
+}
+
+.rectangle-14 {
+    position: relative;
+    padding: 1rem;
+    background: #0029475f;
+    border-radius: 25px;
+    z-index: 10;
+    width: 200px;
+    height: 30px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.clash {
-    margin-top: 1px;
-    color: #17FBF3;
-    text-shadow:
-        0 0 1000px #0D74C9,
-        0 0 80px #0D74C9;
+.rectangle-14::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #43FCFF, #FF09AF);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: 10;
 }
 
-.hockey {
-    margin-top: -65px;
-    color: #FF20C9;
-    text-shadow:
-        0 0 1000px #FF008C,
-        0 0 80px #FF008C;
+.rectangle-15 {
+    position: relative;
+    padding: 1rem;
+    background: #0029475f;
+    border-radius: 30px;
+    z-index: 10;
+    width: 190px;
+    height: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 55px;
 }
 
-.main {
+.rectangle-15::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #43FCFF, #FF09AF);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: 10;
+}
+
+.guest {
+    position: absolute;
+    top: -38px;
+    color: #43FCFF;
+    left: 135px;
+    font-size: 25px;
+    z-index: 10;
+}
+
+.text-bottom {
+    color: #CE3AAF;
     text-align: center;
+    font-size: 15px;
+    position: relative;
+    top: -80px;
 }
 
-.text {
-    color: #FF40D1;
+.login {
+    text-align: center;
+    position: relative;
+    top: -80px;
+}
+
+.login-text {
+    color: #CE3AAF;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.gradient-border {
+    display: inline-block;
+    padding: 2px;
+    border-radius: 18px;
+    background: linear-gradient(45deg, #00FFFF, #ff00cc);
+}
+
+.gradient-border input {
+    padding: 10px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background: black;
+    color: #00FFFF;
+    width: 285px;
     font-size: 20px;
 }
 
-.text-register {
+input::placeholder {
+    color: #00FFFF;
+    opacity: 1;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10px;
+}
+
+.button-login a {
+    position: absolute;
+    top: 225px;
+    right: 140px;
+    color: #CE3AAF;
+    font-size: 20px;
+    top: 200px;
+}
+
+.button-register a {
+    color: white;
+    position: relative;
+    right: 346px;
+    top: -66px;
+
+    background: linear-gradient(180deg, #FFFFFF, #FF20C9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 20px;
+    font-size: 17px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 10;
+}
+
+.rectangle-19 {
+    position: relative;
+    padding: 1rem;
+    border-radius: 35px;
+    z-index: 10;
+    width: 285px;
+    height: 33px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 40px;
+}
+
+.rectangle-19::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #43FCFF, #FF09AF);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: 10;
+}
+
+.rectangle-20 {
+    position: relative;
+    padding: 1rem;
+    border-radius: 30px;
+    z-index: 10;
+    width: 270px;
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    top: -49px;
+}
+
+.rectangle-20::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #43FCFF, #FF09AF);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: 10;
+    top: -10px;
+}
+
+.rectangle-20-register {
+    position: relative;
+    left: 391px;
+    width: 360px;
+    height: 140px;
+}
+
+.rectangle-20-register {
+    position: relative;
+    right: -45px;
+    top: -21px;
+    width: 325px;
+}
+
+.term {
+    color: white;
+    margin-top: -30px;
+    font-size: 8.5px;
+}
+
+.term a {
+    color: #00FFFF
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    top: -40px;
+
+}
+
+.google {
+    background-color: transparent;
+    border: #00FFFF 1px solid;
+    color: #00FFFF;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 11px;
+}
+
+.apple {
+    background-color: transparent;
+    border: #FF20C9 1px solid;
+    color: #FF20C9;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 11px;
+}
+
+.google img {
+    height: 25px;
+}
+
+.apple img {
+    height: 40px;
 }
