@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallet</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/wallet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-login-register">
+        <div class="header">
+            <img onclick="window.location.href='main.html'" class="arrow" src="assets/image/arrow.png" alt="">
+            <div class="clash-hockey orbitron-700">
+                <div class="logo">
+                    <img class="clash" src="assets/image/CLASH@2x.png" alt="">
+                    <img class="hockey" src="assets/image/HOCKEY.png" alt="">
+                </div>
+            </div>
+            <div class="rectangle-21">
+                <div class="elipse">
+                    <div class="male"></div>
+                </div>
+                <div class="point poppins-regular">
+                    <span>
+                        <img src="assets/image/dollar-coin-solid-icon (1) 4.png" alt="">
+                        <p>200</p>
+                    </span>
+                    <p class="player-top">PLAYER</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="rectangle-28">
+                <img class="icon" src="assets/image/saving-icon 1.png" alt="">
+                <p class="wallet poppins-regular">WALLET</p>
+            </div>
+            <div class="rounded-rectangle poppins-regular">
+                <div class="card-container">
+                    <div class="carousel-wrapper">
+                        <img class="nav-button nav-left" style="position: absolute; width: 45px;"
+                            src="assets/image/angle-circle-right-icon 2.png"></img>
+
+                        <div class="carousel-container">
+                            <div class="carousel-track">
+                                <div class="card">
+                                    <div class="rectangle-26">
+                                        <div class="top">
+                                            <img src="assets/image/money-icon 1.png" alt="">
+                                            <p>5 coins</p>
+                                        </div>
+                                        <div class="button-price">5.00$</div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="rectangle-26">
+                                        <div class="top">
+                                            <img src="assets/image/money-bag-icon 1.png" alt="">
+                                            <p>10 coins</p>
+                                        </div>
+                                        <div class="button-price">10.00$</div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="rectangle-26">
+                                        <div class="top">
+                                            <img src="assets/image/finance-icon 1.png" alt="">
+                                            <p>20 coins</p>
+                                        </div>
+                                        <div class="button-price">20.00$</div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="rectangle-26">
+                                        <div class="top">
+                                            <img src="assets/image/finance-icon 1.png" alt="">
+                                            <p>20 coins</p>
+                                        </div>
+                                        <div class="button-price">20.00$</div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="rectangle-26">
+                                        <div class="top">
+                                            <img src="assets/image/finance-icon 1.png" alt="">
+                                            <p>20 coins</p>
+                                        </div>
+                                        <div class="button-price">20.00$</div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="rectangle-26">
+                                        <div class="top">
+                                            <img src="assets/image/finance-icon 1.png" alt="">
+                                            <p>20 coins</p>
+                                        </div>
+                                        <div class="button-price">20.00$</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <img class="nav-button nav-right" style="position: absolute; width: 45px;"
+                            src="assets/image/angle-circle-right-icon 1.png"></img>
+                    </div>
+                </div>
+                <div class="buy-via">
+                    <p>BUY VIA</p>
+                </div>
+                <div class="payments">
+                    <img onclick="window.location.href='paypal.html'" style="height: 50px; cursor: pointer;"
+                        src="assets/image/paypal-icon 1.png" alt="">
+                    <img style="margin-right: 30px;" src="assets/image/wallet-icon 1.png" alt="">
+                    <img src="assets/image/credit-card-icon 1.png" alt="">
+                </div>
+                <div class="mid-button">
+                    <div style="cursor: pointer;" onclick="window.location.href='paypal.html'" class="rectangle-30">
+                        <p class="orbitron-700">DEPOSIT</p>
+                    </div>
+                    <div style="cursor: pointer;" onclick="window.location.href='paypal.html'" class="rectangle-30">
+                        <p style="color: #FF008C;" class="orbitron-700">WITHDRAW</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const track = document.querySelector('.carousel-track');
+        const cards = document.querySelectorAll('.card');
+        const prevBtn = document.querySelector('.nav-left');
+        const nextBtn = document.querySelector('.nav-right');
+
+        let currentIndex = 2; // start from center
+        const cardWidth = cards[0].offsetWidth + 20;
+
+        function updateCarousel() {
+            track.style.transform = `translateX(calc(50% - ${(currentIndex + 0.5) * cardWidth}px))`;
+
+            cards.forEach((card, index) => {
+                card.classList.toggle('active', index === currentIndex);
+            });
+        }
+
+        nextBtn.addEventListener('click', () => {
+            currentIndex = (currentIndex + 1) % cards.length;
+            updateCarousel();
+        });
+
+        prevBtn.addEventListener('click', () => {
+            currentIndex = (currentIndex - 1 + cards.length) % cards.length;
+            updateCarousel();
+        });
+
+        window.addEventListener('resize', updateCarousel);
+        updateCarousel();
+    </script>
+</body>
+
+</html>
