@@ -79,6 +79,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
 }
 
 .rectangle-2 img {

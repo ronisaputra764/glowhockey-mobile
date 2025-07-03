@@ -16,6 +16,7 @@
 .arrow {
     width: 50px;
     height: 45px;
+    cursor: pointer;
 }
 
 .rectangle-21 {
