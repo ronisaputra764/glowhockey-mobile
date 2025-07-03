@@ -1,0 +1,340 @@
+.background-login-register {
+    background-image: url(../assets/image/Air\ Hockey-main2.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+}
+
+.arrow {
+    width: 50px;
+    height: 45px;
+}
+
+.rectangle-21 {
+    background-image: url(../assets/image/Rectangle\ 21.png);
+    width: 130px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.elipse {
+    background-image: url(../assets/image/Ellipse\ 1.png);
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.male {
+    background-image: url(../assets/image/male-icon\ 5.png);
+    height: 20px;
+    margin-left: 5px;
+    margin-top: 0px;
+    position: relative;
+    top: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.point {
+    color: white;
+    position: absolute;
+    top: -3px;
+    right: 25px;
+    font-size: 10px;
+}
+
+.point span {
+    display: flex;
+    align-items: center;
+}
+
+.point span img {
+    height: 15px;
+    margin-right: 5px;
+}
+
+.player {
+    margin-top: -10px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-left: 74px;
+}
+
+.clash {
+    width: 135px;
+}
+
+.hockey {
+    width: 135px;
+    margin-top: -30px;
+}
+
+.rectangle-1 {
+    position: relative;
+    padding: 1rem;
+    background: #002947;
+    border-radius: 10px;
+    z-index: 10;
+    width: 80px;
+    height: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 5px;
+}
+
+.rectangle-1::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #43FCFF, #FF09AF);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: 10;
+}
+
+.rectangle-1 p {
+    color: white;
+    position: absolute;
+    font-size: 15px;
+    top: -39px;
+    left: 12px;
+    letter-spacing: 1px;
+}
+
+.rectangle-2 {
+    position: relative;
+    background: #002947;
+    border-radius: 12px;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    width: 310px;
+    height: 510px;
+}
+
+.rectangle-2::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #43FCFF, #FF09AF);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: -1;
+}
+
+.line-26 {
+    position: absolute;
+    width: 100px;
+    top: 240px;
+    left: -5px;
+}
+
+.line-27 {
+    position: absolute;
+    width: 99px;
+    top: 240px;
+    right: -4px;
+}
+
+.ellipse-21 {
+    position: absolute;
+    width: 55%;
+    bottom: 423px;
+    left: 70px;
+}
+
+.ellipse-12 {
+    position: absolute;
+    width: 55%;
+    top: 160px;
+    left: 70px;
+}
+
+.ellipse-22 {
+    position: absolute;
+    width: 55%;
+    top: 428px;
+    left: 70px;
+}
+
+.ellipse-15 {
+    position: absolute;
+    top: 350px;
+    width: 85px;
+    left: 40px;
+}
+
+.ellipse-17 {
+    position: absolute;
+    top: 356px;
+    left: 46px;
+    width: 73px;
+    z-index: 2;
+}
+
+.ellipse-16 {
+    position: absolute;
+    top: 373px;
+    left: 66px;
+    width: 32px;
+    z-index: 5;
+}
+
+.ellipse-18 {
+    position: absolute;
+    top: 75px;
+    width: 85px;
+    left: 185px;
+}
+
+.ellipse-19 {
+    position: absolute;
+    top: 91px;
+    left: 204px;
+    width: 48px;
+    z-index: 2;
+}
+
+.ellipse-20 {
+    position: absolute;
+    top: 98px;
+    left: 212px;
+    width: 32px;
+    z-index: 5;
+}
+
+.ellipse-13 {
+    position: absolute;
+    top: 208px;
+    left: 115px;
+    width: 80px;
+}
+
+.ellipse-14 {
+    position: absolute;
+    top: 228px;
+    left: 138px;
+    width: 35px;
+    z-index: 2;
+}
+
+.opponents-icon {
+    position: absolute;
+    top: -36px;
+    left: 220px;
+}
+
+.opponents-icon p {
+    color: white;
+    position: absolute;
+    font-size: 13px;
+    top: -42px;
+    left: 35px;
+    letter-spacing: 0px;
+}
+
+.ellipse-23-opponents {
+    position: absolute;
+    width: 28px;
+    top: 0;
+}
+
+.ellipse-male-opponents {
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    width: 18px;
+    z-index: 2;
+}
+
+.you-icon {
+    position: absolute;
+    top: 518px;
+    left: 5px;
+}
+
+.you-icon p {
+    color: white;
+    position: absolute;
+    font-size: 13px;
+    top: -42px;
+    left: 32px;
+    letter-spacing: 0px;
+}
+
+.rectangle-3 {
+    position: relative;
+    padding: 1rem;
+    background: #002947;
+    border-radius: 10px;
+    z-index: 10;
+    width: 6px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: -192px;
+    left: 175px;
+    font-size: 25px;
+}
+
+.rectangle-3::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    border-radius: inherit;
+    background: linear-gradient(160deg, #43FCFF, #FF09AF);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: 10;
+}
+
+.opponent-score {
+    color: red;
+    position: absolute;
+    bottom: 20px;
+    right: 4px;
+}
+
+.your-score {
+    color: #43FCFF;
+    position: absolute;
+    right: 4px;
+}
+
+.line-score {
+    width: 40px;
+    right: 0px;
+    top: 51px;
+    position: absolute;
+}
