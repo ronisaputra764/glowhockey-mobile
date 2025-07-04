@@ -1,0 +1,228 @@
+.background-login-register {
+    background-image: url(../assets/image/Air\ Hockey-main2.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+}
+
+.arrow {
+    width: 50px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.rectangle-21 {
+    background-image: url(../assets/image/Rectangle\ 21.png);
+    width: 130px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.elipse {
+    background-image: url(../assets/image/Ellipse\ 1.png);
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.male {
+    background-image: url(../assets/image/male-icon\ 5.png);
+    height: 20px;
+    margin-left: 5px;
+    margin-top: 0px;
+    position: relative;
+    top: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.point {
+    color: white;
+    position: absolute;
+    top: -3px;
+    right: 25px;
+    font-size: 10px;
+}
+
+.point span {
+    display: flex;
+    align-items: center;
+}
+
+.point span img {
+    height: 15px;
+    margin-right: 5px;
+}
+
+.player-top {
+    margin-top: -10px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-left: 74px;
+}
+
+.clash {
+    width: 135px;
+}
+
+.hockey {
+    width: 135px;
+    margin-top: -30px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.main img {
+    width: 250px;
+    position: relative;
+    top: -40px;
+}
+
+.rectangle-28 {
+    position: relative;
+    padding: 1rem;
+    background: #002947;
+    border-radius: 10px;
+    z-index: 10;
+    width: 200px;
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: -27px;
+}
+
+.rectangle-28::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #43FCFF, #FF09AF);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: 10;
+}
+
+.rectangle-28 img {
+    width: 200px;
+    position: relative;
+    bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rounded-rectangle {
+    position: relative;
+    padding: 1rem;
+    background: #002947a1;
+    border-radius: 12px;
+    z-index: 1;
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    padding-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.rounded-rectangle::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #43FCFF, #FF09AF);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: -1;
+}
+
+.rounded-rectangle div {
+    display: flex;
+    align-items: center;
+    height: 0px;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.rounded-rectangle div img {
+    width: 20px;
+    height: 20px;
+}
+
+.rounded-rectangle div p {
+    font-size: 17px;
+    margin-left: 5px;
+}
+
+.list {}
+
+.claimed {
+    color: #43FCFF;
+}
+
+.blur {
+    color: #43fcff7f;
+}
+
+.button-claim-all {
+    position: relative;
+    padding: 1rem;
+    background: #002947;
+    border-radius: 10px;
+    z-index: 10;
+    width: 100px;
+    height: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 25px;
+}
+
+.button-claim-all::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #43FCFF, #FF09AF);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: 10;
+}
+
+.button-claim-all img {
+    width: 100px;
+}

@@ -1,0 +1,362 @@
+.background-login-register {
+    background-image: url(../assets/image/Air\ Hockey-main2.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+}
+
+.arrow {
+    width: 50px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.rectangle-21 {
+    background-image: url(../assets/image/Rectangle\ 21.png);
+    width: 130px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.elipse {
+    background-image: url(../assets/image/Ellipse\ 1.png);
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.male {
+    background-image: url(../assets/image/male-icon\ 5.png);
+    height: 20px;
+    margin-left: 5px;
+    margin-top: 0px;
+    position: relative;
+    top: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.point {
+    color: white;
+    position: absolute;
+    top: -3px;
+    right: 25px;
+    font-size: 10px;
+}
+
+.point span {
+    display: flex;
+    align-items: center;
+}
+
+.point span img {
+    height: 15px;
+    margin-right: 5px;
+}
+
+.player-top {
+    margin-top: -10px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-left: 74px;
+}
+
+.clash {
+    width: 135px;
+}
+
+.hockey {
+    width: 135px;
+    margin-top: -30px;
+}
+
+.rectangle-28 {
+    position: relative;
+    padding: 1rem;
+    background: #002947;
+    border-radius: 10px;
+    z-index: 10;
+    width: 110px;
+    height: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: -25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rectangle-28::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 1px;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #43FCFF, #FF09AF);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: 10;
+}
+
+.rounded-rectangle {
+    position: relative;
+    background: #002947a1;
+    border-radius: 12px;
+    z-index: 1;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.rounded-rectangle::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 1px;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #43FCFF, #FF09AF);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.icon {
+    width: 25px;
+    margin-right: 5px;
+}
+
+.wallet {
+    color: white;
+    font-size: 25px;
+}
+
+.gradient-border {
+    position: relative;
+    display: inline-block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    z-index: 2;
+}
+
+.gradient-border input {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background: transparent;
+    font-size: 16px;
+    outline: none;
+    resize: none;
+    color: white;
+}
+
+.gradient-border::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    border-radius: inherit;
+    background: linear-gradient(to right, #43FCFF, #FF09AF);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.input-top {
+    display: flex;
+    padding-top: 30px;
+    margin-top: 15px;
+}
+
+
+.input-top p {
+    color: white;
+    position: absolute;
+    top: 2px;
+    left: 25px;
+}
+
+.input-mid {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-items: center;
+    padding-top: 30px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+    position: relative;
+    bottom: 10px;
+}
+
+.input-mid p {
+    color: white;
+    position: absolute;
+    top: -42px;
+    left: 4px;
+}
+
+.input-mid .gradient-border {
+    width: 100%;
+}
+
+.gradient-border-button {
+    position: relative;
+    width: 100%;
+    height: 47px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    z-index: 2;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.gradient-border-button::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    border-radius: inherit;
+    background: linear-gradient(to right, #43FCFF, #FF09AF);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.button-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    padding-top: 30px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+    position: relative;
+    bottom: 40px;
+}
+
+.gradient-button-bottom {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    z-index: 2;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gradient-button-bottom::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    border-radius: inherit;
+    background: linear-gradient(to right, #43FCFF, #FF09AF);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.withdraw-able {
+    position: absolute;
+    margin-left: 20px;
+    color: white;
+    bottom: 140px;
+}
+
+.rectangle-37 {
+    position: relative;
+    padding: 1rem;
+    background: #002947;
+    border-radius: 20px;
+    z-index: 10;
+    width: 150px;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    bottom: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rectangle-37::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #43FCFF, #FF09AF);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: 10;
+}
+
+.paypal-img {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}

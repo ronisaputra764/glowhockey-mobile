@@ -1,0 +1,361 @@
+.background-login-register {
+    background-image: url(../assets/image/Air\ Hockey-main2.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+}
+
+.arrow {
+    width: 50px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.rectangle-21 {
+    background-image: url(../assets/image/Rectangle\ 21.png);
+    width: 130px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.elipse {
+    background-image: url(../assets/image/Ellipse\ 1.png);
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.male {
+    background-image: url(../assets/image/male-icon\ 5.png);
+    height: 20px;
+    margin-left: 5px;
+    margin-top: 0px;
+    position: relative;
+    top: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.point {
+    color: white;
+    position: absolute;
+    top: -3px;
+    right: 25px;
+    font-size: 10px;
+}
+
+.point span {
+    display: flex;
+    align-items: center;
+}
+
+.point span img {
+    height: 15px;
+    margin-right: 5px;
+}
+
+.player-top {
+    margin-top: -10px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-left: 74px;
+}
+
+.clash {
+    width: 135px;
+}
+
+.hockey {
+    width: 135px;
+    margin-top: -30px;
+}
+
+.rectangle-28 {
+    position: relative;
+    padding: 1rem;
+    background: #002947;
+    border-radius: 10px;
+    z-index: 10;
+    width: 150px;
+    height: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: -25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rectangle-28 img {
+    width: 160px;
+}
+
+.rectangle-28::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 1px;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #43FCFF, #FF09AF);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: 10;
+}
+
+.rounded-rectangle {
+    position: relative;
+    padding: 1rem;
+    background: #002947a1;
+    border-radius: 12px;
+    z-index: 1;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.rounded-rectangle::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #43FCFF, #FF09AF);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: -1;
+}
+
+.rounded-rectangle div {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.rounded-rectangle div img {
+    width: 20px;
+    height: 20px;
+}
+
+.rounded-rectangle div p {
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.list {
+    color: white;
+}
+
+.list div img {
+    width: 30px;
+}
+
+.list div p span {
+    font-size: 15px;
+}
+
+.button-container {
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 10px;
+}
+
+.gradient-border {
+    padding-top: 1px;
+    padding-bottom: 0.5px;
+    border-radius: 13px;
+    width: 168px;
+    background: linear-gradient(45deg, #00FFFF, #ff00cc);
+}
+
+.gradient-border input {
+    padding: 7px;
+    padding-left: 10px;
+    margin-left: -8px;
+    margin-right: -8px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: #002947;
+    color: rgba(255, 255, 255, 0.502);
+    width: 168px;
+    font-size: 15px;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.49);
+    opacity: 1;
+}
+
+.list-input {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.button {
+    position: relative;
+    background: #002947;
+    border-radius: 10px;
+    z-index: 10;
+    width: 90px;
+    height: 10px;
+    bottom: -40px;
+    display: flex;
+    cursor: pointer;
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #43FCFF, #FF09AF);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: 10;
+}
+
+.back p {
+    text-align: center;
+    width: 100px;
+    color: white;
+    margin-right: 8px;
+}
+
+.save p {
+    color: #FBF448;
+    text-align: center;
+    width: 100px;
+    margin-right: 8px;
+}
+
+.logout p {
+    color: #FF20C9;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.contact-us {
+    position: relative;
+    background: #002947;
+    border-radius: 10px;
+    bottom: -70px;
+    z-index: 10;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    width: 140px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-us::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #43FCFF, #FF09AF);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: 10;
+}
+
+.contact-us p {
+    color: #FF20C9;
+    white-space: nowrap;
+}
+
+.toggle-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.toggle {
+    position: relative;
+    width: 40px;
+    height: 25px;
+}
+
+.toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.slider::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 3px;
+    top: 2.5px;
+    background-color: black;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+input:checked+.slider {
+    background-color: #17FBF3;
+}
+
+input:checked+.slider::before {
+    transform: translateX(13px);
+}

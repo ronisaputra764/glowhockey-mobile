@@ -1,0 +1,275 @@
+.background-login-register {
+    background-image: url(../assets/image/Air\ Hockey-main2.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+}
+
+.arrow {
+    width: 50px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.rectangle-21 {
+    background-image: url(../assets/image/Rectangle\ 21.png);
+    width: 130px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.elipse {
+    background-image: url(../assets/image/Ellipse\ 1.png);
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.male {
+    background-image: url(../assets/image/male-icon\ 5.png);
+    height: 20px;
+    margin-left: 5px;
+    margin-top: 0px;
+    position: relative;
+    top: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.point {
+    color: white;
+    position: absolute;
+    top: -3px;
+    right: 25px;
+    font-size: 10px;
+}
+
+.point span {
+    display: flex;
+    align-items: center;
+}
+
+.point span img {
+    height: 15px;
+    margin-right: 5px;
+}
+
+.player-top {
+    margin-top: -10px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin-left: 74px;
+}
+
+.clash {
+    width: 135px;
+}
+
+.hockey {
+    width: 135px;
+    margin-top: -30px;
+}
+
+.rectangle-28 {
+    position: relative;
+    padding: 1rem;
+    background: #002947;
+    border-radius: 10px;
+    z-index: 10;
+    width: 200px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: -27px;
+}
+
+.rectangle-28::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #43FCFF, #FF09AF);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: 10;
+}
+
+.rectangle-28 img {
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    position: relative;
+    right: 10px;
+}
+
+.rounded-rectangle {
+    position: relative;
+    padding: 1rem;
+    background: #002947a1;
+    border-radius: 12px;
+    z-index: 1;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+    padding-bottom: 23px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.rounded-rectangle::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    border-radius: inherit;
+    background: linear-gradient(90deg, #43FCFF, #FF09AF);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: -1;
+}
+
+.rounded-rectangle p {
+    color: white;
+    font-size: 14px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.top img {
+    width: 100px;
+    height: 100px;
+}
+
+.mid {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.gradient-border {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.gradient-border input {
+    position: relative;
+    z-index: 1;
+    width: 95%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background: transparent;
+    font-size: 16px;
+    outline: none;
+    resize: none;
+    color: white;
+}
+
+.gradient-border textarea {
+    position: relative;
+    z-index: 1;
+    width: 95%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background: transparent;
+    font-size: 16px;
+    outline: none;
+    resize: none;
+    height: 100px;
+    color: white;
+}
+
+.gradient-border::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    border-radius: inherit;
+    background: linear-gradient(to right, #43FCFF, #FF09AF);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.gradient-button {
+    position: relative;
+    display: inline-block;
+    padding: 1px 30px;
+    font-size: 16px;
+    background: #002947;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.gradient-button img {
+    width: 80px;
+    margin-top: 6px;
+}
+
+.gradient-button::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 2px;
+    /* Ketebalan border */
+    border-radius: inherit;
+    background: linear-gradient(to right, #43FCFF, #FF09AF);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.gradient-button:focus {
+    outline: none;
+}
